@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",//
+            "program": "${workspaceFolder}/bin/FLSVIO_new_backup_6",
+            // "args": ["${workspaceFolder}/Data/ISAM2_SmartFactorStereo_IMU.txt"],
+            // "args": ["${workspaceFolder}/frontendData.txt",
+            //          "${workspaceFolder}/initiasl_values_processed.txt",
+            //         ],
+            "stopAtEntry": false,
+            "preLaunchTask": "cmake:debug", //参数"build"与tasks.json中的"label": "build"名字相同
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
+

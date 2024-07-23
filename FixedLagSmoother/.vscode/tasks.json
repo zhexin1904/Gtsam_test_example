@@ -1,0 +1,20 @@
+{
+		// https://go.microsoft.com/fwlink/?LinkId=733558
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "cmake:debug", //
+				"type": "shell",  
+				"command": "./build.sh",//
+				"args": [
+					"-DCMAKE_BUILD_TYPE=Debug",
+				],
+				"group": {"kind":"build","isDefault":true},
+				"presentation": {
+					"reveal": "always"//
+				},
+				"problemMatcher": "$msCompile"
+			}
+		]
+	}
+	

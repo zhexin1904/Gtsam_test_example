@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                // "${workspaceFolder}/**",
+                "/home/jason/catkin_ws/ThirdParty/gtsam**",
+                "/usr/include/eigen3/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "intelliSenseMode": "linux-gcc-x64",
+            "cppStandard": "c++17"
+            // "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

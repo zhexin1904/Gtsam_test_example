@@ -1,0 +1,4 @@
+batch_size 5 time 0.0421347 
+batch_size 10 time 0.116213
+batch_size 20 time 0.277232
+batch_size 30 time 0.434653
